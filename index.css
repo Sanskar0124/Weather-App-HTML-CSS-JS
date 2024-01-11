@@ -1,0 +1,32 @@
+body {
+    background-image: url('https://www.maketecheasier.com/assets/uploads/2021/11/Featured-Image-Live-Weather-Wallpapers-Android.jpg');
+    background-size: cover;
+}
+
+.navbar {
+    background-color: transparent;
+    color: #070908;
+    backdrop-filter: blur(15px);
+}
+
+.weather-card {
+    border-radius: 30%;
+    padding: 1rem 0rem;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border-width: 0.4rem;
+    border-color: white;
+    color: white;
+}
+
+.weather-card:hover {
+    border-color: rgb(23, 66, 105);
+    color: white;
+    transform: scale(1.1);
+    /* Increase the size on hover */
+}
+
+#city {
+    background-color: transparent;
+    color: white;
+}
