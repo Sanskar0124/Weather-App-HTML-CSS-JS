@@ -9,6 +9,32 @@ body {
     backdrop-filter: blur(15px);
 }
 
+.navbar-ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: auto;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.navbar-con {
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
 .weather-card {
     border-radius: 30%;
     padding: 1rem 0rem;
